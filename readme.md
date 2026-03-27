@@ -86,12 +86,21 @@ These tools enabled efficient data loading, cleaning, exploration, visualization
 
 ## Project Structure Key Visualizations
 
-text
-Biodiversity-Conservation-Analysis/
+biodiversity_analysis/
 ├── species_info.csv
 ├── observations.csv
 ├── biodiversity_analysis.ipynb
-├── README.md
+├── reports/
+│ ├── biodiversity_presentation.pdf
+│ └── biodiversity_presentation.pptx
+└── readme.md
+
+## Presentation
+
+This project includes a complete slide deck summarizing the analysis, key findings, and recommendations.
+
+- [View Presentation (PDF)](reports/biodiversity_presentation.pdf)
+- [Download PowerPoint](reports/biodiversity_presentation.pptx)
 
 ## Key Visualizations
 
@@ -216,14 +225,14 @@ Potential future improvements for this project include:
 ### Clone the repository
 
 ```bash
-git clone <your-repository-link>
+git clone https://github.com/Sasimgt/biodiversity_analysis.git
 
 ## How to Run the Project
 
 ### Navigate to the project directory
 
 ```bash
-cd Biodiversity-Conservation-Analysis
+cd biodiversity_analysis
 
 ## Conclusion
 
